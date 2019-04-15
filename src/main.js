@@ -9,7 +9,7 @@ import "animate.css/animate.css";
 import {
   faShoppingCart,
   faDollarSign
-} from "@fortawesome/fontawesome-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 
 library.add(faShoppingCart, faDollarSign);
 

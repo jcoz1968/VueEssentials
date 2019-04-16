@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="container mt-5">
     <h1>My Shop</h1>
+    <checkout></checkout>
     <navbar :cart="cart" :cartQty="cartQty" :cartTotal="cartTotal" @toggle="toggleSliderStatus" @delete="deleteItem"></navbar>
     <price-slider :sliderStatus="sliderStatus" :maximum.sync="maximum"></price-slider>
     <product-list :maximum="maximum" :products="products" @add="addItem"></product-list>
